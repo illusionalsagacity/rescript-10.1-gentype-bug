@@ -1,0 +1,8 @@
+{
+  "name": "rescript-10.1-gentype-bug",
+  "packageManager": "yarn@3.4.1",
+  "workspaces": [
+    "JSXv3",
+    "JSXv4"
+  ]
+}

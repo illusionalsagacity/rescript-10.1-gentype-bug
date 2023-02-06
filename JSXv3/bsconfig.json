@@ -1,0 +1,42 @@
+{
+  "name": "jsxv3",
+  "jsx": {
+    "version": 3,
+    "mode": "classic"
+  },
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
+  "bsc-flags": [
+    "-bs-super-errors",
+    "-bs-no-version-header",
+    "-open ReactV3"
+  ],
+  "bs-dependencies": [
+    "@rescript/react"
+  ],
+  "package-specs": [
+    {
+      "module": "es6",
+      "in-source": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "warnings": {
+    "number": "-23-48",
+    "error": "+8"
+  },
+  "gentypeconfig": {
+    "language": "typescript",
+    "module": "es6",
+    "exportInterfaces": false,
+    "importPath": "relative",
+    "debug": {
+      "all": false,
+      "basic": false
+    }
+  }
+}

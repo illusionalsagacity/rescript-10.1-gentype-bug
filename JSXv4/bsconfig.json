@@ -1,0 +1,41 @@
+{
+  "name": "jsxv4",
+  "jsx": {
+    "version": 4,
+    "mode": "automatic"
+  },
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
+  "bsc-flags": [
+    "-bs-super-errors",
+    "-bs-no-version-header"
+  ],
+  "bs-dependencies": [
+    "@rescript/react"
+  ],
+  "package-specs": [
+    {
+      "module": "es6",
+      "in-source": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "warnings": {
+    "number": "-23-48",
+    "error": "+8"
+  },
+  "gentypeconfig": {
+    "language": "typescript",
+    "module": "es6",
+    "exportInterfaces": false,
+    "importPath": "relative",
+    "debug": {
+      "all": false,
+      "basic": false
+    }
+  }
+}
